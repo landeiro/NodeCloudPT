@@ -140,19 +140,5 @@ var removeFolder = function() {
 var end = function() {
 	console.log("ALL OK!")
 }
-/*
-storage.importFromDropbox({
-	path : "/rtp.png",
-	remote_path : "/metal/rtpnoticias.png",
-	remote_oauth : {
-		consumer_key : "00ct49o2qfowd5z",
-		consumer_secret : "7e534k4pl4unwsq",
-		token : "hlbhce16bub2e9o",
-		token_secret : "otg1yhmnhsyg45m"
-	}
-}, function() {
-	console.log()
-});
-*/
 
 start();
