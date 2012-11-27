@@ -82,7 +82,7 @@ You have to describe the `path` on the server where to get the content. You can 
 cloudpt.download({path:"/style/gangnam.png"},callback); , function(data) {
 	console.log(data);
 });
-// get content on data variable
+// save content to a file
 cloudpt.download({path:"/style/gangnam.png", file:"gangnam-file.png"},callback); , function(data) {
 	console.log(data);
 });
