@@ -4,7 +4,7 @@
 
 NodeCloudPT is a NodeJS SDK for the CoudPT service that covers all the API methods and parameters. You can see all the API  documentation [here](https://cloudpt.pt/documentation). 
 
-Also has an experimental function that exports directly a file from a URL.
+Also has an experimental function that imports directly a file from a URL.
 
 ## Basic Examples
 
