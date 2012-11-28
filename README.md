@@ -79,11 +79,11 @@ You have to describe the `path` on the server where to get the content. You can 
 
 ```javascript
 // get content on data variable
-cloudpt.download({path:"/style/gangnam.png"},callback); , function(data) {
+cloudpt.download({path:"/style/gangnam.png"}, function(data) {
 	console.log(data);
 });
 // save content to a file
-cloudpt.download({path:"/style/gangnam.png", file:"gangnam-file.png"},callback); , function(data) {
+cloudpt.download({path:"/style/gangnam.png", file:"gangnam-file.png"}, function(data) {
 	console.log(data);
 });
 ```
@@ -93,7 +93,7 @@ You can import a file directly from a URL by describing the `url`where to find t
 
 ```javascript
 // get content on data variable
-cloudpt.importFromURL({path:"/specialone/main.pdf",url:"http://some.url.com/somefile.pdf"},callback); , function(data) {
+cloudpt.importFromURL({path:"/specialone/main.pdf",url:"http://some.url.com/somefile.pdf"}, function(data) {
 	console.log(data);
 });
 ```
