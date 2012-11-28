@@ -21,7 +21,7 @@
 	,
 	"engines": ["node >= 0.6.19"]
 	,
-	"main": "./main"
+	"main": "./NodeCloudPT"
 	,
 	"dependencies": {
 		"request": "~2.12.0"
