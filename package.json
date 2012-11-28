@@ -24,7 +24,7 @@
 	"main": "./main"
 	,
 	"dependencies": {
-		"request": "~2.12.1"
+		"request": "~2.12.0"
 	}
 	,
 	"scripts": {
