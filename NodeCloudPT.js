@@ -21,7 +21,7 @@ var default_service = {
 	api : {
 		root : "cloudpt",
 		storage : "/Storage/CloudPT",
-		endpoint : "https://api.cloudpt.pt",
+		endpoint : "https://publicapi.cloudpt.pt",
 		content_endpoint : "https://api-content.cloudpt.pt"
 	},
 	oauth : {
