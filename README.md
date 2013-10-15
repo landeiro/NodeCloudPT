@@ -36,7 +36,7 @@ cloudpt.metadata({path:"/test", list:true}, function(data) {
 
 ### List
 ```javascript
-cloudptlist({path:"/metal",max_rows:1}, function(data) {
+cloudpt.list({path:"/metal",max_rows:1}, function(data) {
 	console.log(data);
 });
 ```
