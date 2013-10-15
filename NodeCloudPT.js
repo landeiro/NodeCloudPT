@@ -19,14 +19,14 @@
 
 var default_service = {
 	api : {
-		root : "cloudpt",
+		root : "meocloud",
 		storage : "/1",
-		endpoint : "https://publicapi.cloudpt.pt",
-		content_endpoint : "https://api-content.cloudpt.pt"
+		endpoint : "https://publicapi.meocloud.pt",
+		content_endpoint : "https://api-content.meocloud.pt"
 	},
 	oauth : {
-		request_token_endpoint : "https://cloudpt.pt/oauth/request_token",
-		access_token_endpoint : "https://cloudpt.pt/oauth/access_token"
+		request_token_endpoint : "https://meocloud.pt/oauth/request_token",
+		access_token_endpoint : "https://meocloud.pt/oauth/access_token"
 	}
 }
 var request = require('request');
